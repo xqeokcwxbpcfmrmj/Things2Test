@@ -1,0 +1,8 @@
+Export keys from known dev
+
+#curl -i https://api.github.com/users/<username>/keys
+#curl -i https://bitbucket.org/api/1.0/users/<accountname>/ssh-keys
+
+scan internet for shadow IT with those keys configured
+
+#sshamble scan --checks pubkey-hunt
